@@ -1,0 +1,89 @@
+{
+  "meals": [
+    {
+      "name": "土豆泥",
+      "kcal": 135,
+      "meal": "午餐",
+      "qty": 1,
+      "unit": "1盒",
+      "confidence": "highest",
+      "time": "00:56"
+    },
+    {
+      "name": "泰森鸡胸肉",
+      "kcal": 212,
+      "meal": "午餐",
+      "qty": 1,
+      "unit": "1盒168g",
+      "confidence": "highest",
+      "time": "00:56"
+    },
+    {
+      "name": "零食",
+      "kcal": 348,
+      "meal": "加餐",
+      "qty": 1,
+      "unit": "",
+      "confidence": "highest",
+      "time": "00:56"
+    },
+    {
+      "name": "加餐",
+      "kcal": 349,
+      "meal": "加餐",
+      "qty": 1,
+      "unit": "",
+      "confidence": "highest",
+      "time": "00:56"
+    },
+    {
+      "name": "炸琵琶腿",
+      "kcal": 750,
+      "meal": "晚餐",
+      "qty": 1,
+      "unit": "2个+炸香骨鸡250g",
+      "confidence": "highest",
+      "time": "00:56"
+    },
+    {
+      "name": "加餐",
+      "kcal": 200,
+      "baseKcal": 200,
+      "qty": 1,
+      "unit": "",
+      "meal": "加餐",
+      "confidence": "medium",
+      "date": "2026-07-01",
+      "time": "02:05"
+    }
+  ],
+  "weights": [
+    {
+      "date": "2026-07-01",
+      "value": 76.5
+    },
+    {
+      "date": "2026-07-02",
+      "value": 75.5
+    },
+    {
+      "date": "2026-07-03",
+      "value": 75
+    },
+    {
+      "date": "2026-07-04",
+      "value": 78
+    }
+  ],
+  "profile": {
+    "gender": "male",
+    "age": 31,
+    "height": 178,
+    "weight": 73,
+    "activity": "sedentary",
+    "goalType": "lose",
+    "bmr": 1683,
+    "tdee": 2020,
+    "targetKcal": 1520
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "meals": [
+    {
+      "name": "泰森鸡胸肉",
+      "kcal": 212,
+      "meal": "早餐",
+      "qty": 1,
+      "unit": "1盒168g",
+      "confidence": "highest",
+      "time": "00:52"
+    },
+    {
+      "name": "美极土豆泥",
+      "kcal": 135,
+      "meal": "早餐",
+      "qty": 1,
+      "unit": "1盒35g",
+      "confidence": "highest",
+      "time": "00:52"
+    },
+    {
+      "name": "泡菜烤肉饭团",
+      "kcal": 296,
+      "meal": "午餐",
+      "qty": 1,
+      "unit": "",
+      "confidence": "highest",
+      "time": "00:52"
+    },
+    {
+      "name": "红烧肉",
+      "kcal": 450,
+      "meal": "晚餐",
+      "qty": 1,
+      "unit": "3块",
+      "confidence": "highest",
+      "time": "00:52"
+    },
+    {
+      "name": "红烧鸡蛋",
+      "kcal": 170,
+      "meal": "晚餐",
+      "qty": 1,
+      "unit": "2个",
+      "confidence": "highest",
+      "time": "00:52"
+    },
+    {
+      "name": "苋菜",
+      "kcal": 44,
+      "meal": "晚餐",
+      "qty": 1,
+      "unit": "200g",
+      "confidence": "highest",
+      "time": "00:53"
+    }
+  ],
+  "weights": [
+    {
+      "date": "2026-07-03",
+      "value": 75
+    },
+    {
+      "date": "2026-07-04",
+      "value": 78
+    }
+  ],
+  "profile": {
+    "gender": "male",
+    "age": 31,
+    "height": 178,
+    "weight": 73,
+    "activity": "sedentary",
+    "goalType": "lose",
+    "bmr": 1683,
+    "tdee": 2020,
+    "targetKcal": 1520
+  }
+}

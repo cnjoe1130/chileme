@@ -1,0 +1,114 @@
+{
+  "meals": [
+    {
+      "name": "美极土豆泥",
+      "kcal": 135,
+      "meal": "加餐",
+      "qty": 1,
+      "unit": "1盒(35g)",
+      "confidence": "highest",
+      "time": "02:10"
+    },
+    {
+      "name": "厚薯泥培根肉酱双牛堡",
+      "kcal": 570,
+      "meal": "午餐",
+      "qty": 1,
+      "unit": "",
+      "confidence": "highest",
+      "time": "12:19"
+    },
+    {
+      "name": "麦乐鸡(5块)",
+      "kcal": 213,
+      "meal": "午餐",
+      "qty": 1,
+      "unit": "",
+      "confidence": "highest",
+      "time": "12:19"
+    },
+    {
+      "name": "意式辣番茄风味摇滚薯",
+      "kcal": 240,
+      "meal": "午餐",
+      "qty": 1,
+      "unit": "",
+      "confidence": "highest",
+      "time": "12:19"
+    },
+    {
+      "name": "红烧土豆",
+      "kcal": 180,
+      "meal": "晚餐",
+      "qty": 1,
+      "unit": "",
+      "confidence": "highest",
+      "time": "19:30"
+    },
+    {
+      "name": "红烧肉",
+      "kcal": 400,
+      "meal": "晚餐",
+      "qty": 1,
+      "unit": "",
+      "confidence": "highest",
+      "time": "19:30"
+    },
+    {
+      "name": "火龙果",
+      "kcal": 105,
+      "meal": "晚餐",
+      "qty": 1,
+      "unit": "",
+      "confidence": "highest",
+      "time": "19:30"
+    },
+    {
+      "name": "鸡蛋",
+      "kcal": 80,
+      "meal": "晚餐",
+      "qty": 1,
+      "unit": "",
+      "confidence": "highest",
+      "time": "19:30"
+    },
+    {
+      "name": "瑞士莲巧克力",
+      "kcal": 75,
+      "meal": "加餐",
+      "qty": 1,
+      "unit": "",
+      "confidence": "highest",
+      "time": "19:30"
+    }
+  ],
+  "weights": [
+    {
+      "date": "2026-07-01",
+      "value": 76.5
+    },
+    {
+      "date": "2026-07-02",
+      "value": 75.5
+    },
+    {
+      "date": "2026-07-03",
+      "value": 75
+    },
+    {
+      "date": "2026-07-04",
+      "value": 74.2
+    }
+  ],
+  "profile": {
+    "gender": "male",
+    "age": 31,
+    "height": 178,
+    "weight": 73,
+    "activity": "sedentary",
+    "goalType": "lose",
+    "bmr": 1683,
+    "tdee": 2020,
+    "targetKcal": 1520
+  }
+}

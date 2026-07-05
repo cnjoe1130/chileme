@@ -1,0 +1,43 @@
+{
+  "meals": [
+    {
+      "name": "里脊肉串",
+      "kcal": 70,
+      "meal": "午餐",
+      "qty": 2,
+      "unit": "串",
+      "confidence": "highest",
+      "time": "14:00"
+    },
+    {
+      "name": "小杨锅贴",
+      "kcal": 388,
+      "meal": "午餐",
+      "qty": 4,
+      "unit": "个",
+      "confidence": "highest",
+      "time": "14:00"
+    },
+    {
+      "name": "口水鸡茄香风味肉末拌面",
+      "kcal": 495,
+      "meal": "晚餐",
+      "qty": 1,
+      "unit": "",
+      "confidence": "highest",
+      "time": "14:00"
+    },
+    {
+      "name": "橘子",
+      "kcal": 45,
+      "meal": "加餐",
+      "qty": 0.5,
+      "unit": "个(大)",
+      "confidence": "high",
+      "source": "user_input",
+      "time": "now"
+    }
+  ],
+  "weights": [],
+  "profile": {}
+}

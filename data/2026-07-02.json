@@ -1,0 +1,92 @@
+{
+  "meals": [
+    {
+      "name": "牛肉干",
+      "kcal": 96,
+      "meal": "宵夜",
+      "qty": 1,
+      "unit": "1块",
+      "confidence": "highest",
+      "time": "01:01"
+    },
+    {
+      "name": "温泉蛋牛丼",
+      "kcal": 578,
+      "meal": "午餐",
+      "qty": 1,
+      "unit": "",
+      "confidence": "highest",
+      "time": "01:01"
+    },
+    {
+      "name": "章鱼小丸子",
+      "kcal": 252,
+      "meal": "午餐",
+      "qty": 1,
+      "unit": "",
+      "confidence": "highest",
+      "time": "01:01"
+    },
+    {
+      "name": "红烧鸡蛋",
+      "kcal": 170,
+      "meal": "晚餐",
+      "qty": 1,
+      "unit": "2个",
+      "confidence": "highest",
+      "time": "01:01"
+    },
+    {
+      "name": "木耳菜",
+      "kcal": 30,
+      "meal": "晚餐",
+      "qty": 1,
+      "unit": "200g",
+      "confidence": "highest",
+      "time": "01:01"
+    },
+    {
+      "name": "小鱼片干",
+      "kcal": 48,
+      "meal": "加餐",
+      "qty": 1,
+      "unit": "1包",
+      "confidence": "highest",
+      "time": "01:01"
+    },
+    {
+      "name": "酸奶",
+      "kcal": 215,
+      "meal": "加餐",
+      "qty": 1,
+      "unit": "1杯",
+      "confidence": "highest",
+      "time": "01:03"
+    }
+  ],
+  "weights": [
+    {
+      "date": "2026-07-02",
+      "value": 75.5
+    },
+    {
+      "date": "2026-07-03",
+      "value": 75
+    },
+    {
+      "date": "2026-07-04",
+      "value": 78
+    }
+  ],
+  "profile": {
+    "gender": "male",
+    "age": 31,
+    "height": 178,
+    "weight": 73,
+    "activity": "sedentary",
+    "goalType": "lose",
+    "bmr": 1683,
+    "tdee": 2020,
+    "targetKcal": 1520
+  }
+}
