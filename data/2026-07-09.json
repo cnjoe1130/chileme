@@ -1,0 +1,84 @@
+{
+  "meals": [
+    {
+      "unit": "个",
+      "meal": "早餐",
+      "time": "11:41",
+      "kcal": 296,
+      "source": "database",
+      "name": "泡菜烤肉饭团",
+      "qty": 1,
+      "confidence": "highest",
+      "date": "2026-07-09"
+    },
+    {
+      "name": "猕猴桃",
+      "kcal": 61,
+      "qty": 1,
+      "unit": "个",
+      "meal": "早餐",
+      "time": "13:19",
+      "confidence": "highest"
+    },
+    {
+      "name": "玉米",
+      "kcal": 224,
+      "qty": 1,
+      "unit": "根(大)",
+      "meal": "午餐",
+      "time": "16:15",
+      "confidence": "highest"
+    },
+    {
+      "name": "黑木耳",
+      "kcal": 21,
+      "meal": "晚餐",
+      "qty": 100,
+      "unit": "g",
+      "time": "2026-07-09T20:00",
+      "macros": {
+        "p": 0.005,
+        "f": 0.002,
+        "c": 0.037
+      }
+    },
+    {
+      "name": "牛肉(瘦)",
+      "kcal": 159,
+      "meal": "晚餐",
+      "qty": 150,
+      "unit": "g",
+      "time": "2026-07-09T20:00",
+      "macros": {
+        "p": 0.202,
+        "f": 0.023,
+        "c": 0.012
+      }
+    },
+    {
+      "name": "鸡蛋",
+      "kcal": 131,
+      "meal": "晚餐",
+      "qty": 100,
+      "unit": "g",
+      "time": "2026-07-09T20:00",
+      "macros": {
+        "p": 0.133,
+        "f": 0.088,
+        "c": 0.028
+      }
+    }
+  ],
+  "weights": [],
+  "profile": {
+    "gender": "male",
+    "age": 31,
+    "height": 178,
+    "weight": 73,
+    "activity": "sedentary",
+    "goalType": "lose",
+    "bmr": 1683,
+    "tdee": 2020,
+    "targetKcal": 1520
+  }
+}
