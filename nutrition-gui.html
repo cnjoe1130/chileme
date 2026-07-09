@@ -2270,9 +2270,22 @@ function loadFromServer() {
     .catch(() => {});
 }
 
+let _serverAvailable = null; // null = unknown, true/false after probe
+
+function probeServer() {
+  // Quick probe to see if the backend is reachable
+  fetch('/data/__probe__.json?t=' + Date.now())
+    .then(r => { _serverAvailable = r.ok || r.status === 404; })
+    .catch(() => { _serverAvailable = false; });
+}
+
 function startSync() {
-  // 每3秒从服务器读一次
-  setInterval(loadFromServer, 3000);
+  probeServer();
+  setInterval(() => {
+    if (_serverAvailable === false) return; // skip if server confirmed down
+    if (_serverAvailable === null) probeServer(); // re-probe if still unknown
+    loadFromServer();
+  }, 3000);
 }
 
 // Resize handler for chart
