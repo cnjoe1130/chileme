@@ -2273,13 +2273,21 @@ function loadFromServer() {
 let _serverAvailable = null; // null = unknown, true/false after probe
 
 function probeServer() {
-  // Quick probe to see if the backend is reachable
+  // Probe the backend — on GitHub Pages /data/ returns HTML 404, on the real server it returns JSON or 404 with JSON-like content
   fetch('/data/__probe__.json?t=' + Date.now())
-    .then(r => { _serverAvailable = r.ok || r.status === 404; })
+    .then(r => {
+      const ct = r.headers.get('content-type') || '';
+      _serverAvailable = ct.includes('application/json') || ct.includes('text/plain');
+    })
     .catch(() => { _serverAvailable = false; });
 }
 
 function startSync() {
+  // If already served from GitHub Pages (github.io), skip server entirely
+  if (/github\.io$/.test(location.hostname)) {
+    _serverAvailable = false;
+    return;
+  }
   probeServer();
   setInterval(() => {
     if (_serverAvailable === false) return; // skip if server confirmed down
