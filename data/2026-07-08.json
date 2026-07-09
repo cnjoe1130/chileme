@@ -1,0 +1,149 @@
+{
+  "meals": [
+    {
+      "name": "来伊份笋丝豆脯",
+      "kcal": 85,
+      "meal": "加餐",
+      "qty": 40,
+      "unit": "g",
+      "time": "",
+      "macros": {
+        "p": 0.161,
+        "b": 0.105,
+        "f": 0.115
+      }
+    },
+    {
+      "name": "鸡茸玉米土豆泥",
+      "kcal": 137,
+      "meal": "加餐",
+      "qty": 35,
+      "unit": "g",
+      "macros": {
+        "p": 0.111,
+        "b": 0.62,
+        "f": 0.1
+      }
+    },
+    {
+      "name": "乐事薯片原味",
+      "kcal": 219,
+      "baseKcal": 547,
+      "qty": 40,
+      "unit": "g",
+      "meal": "加餐",
+      "confidence": "highest",
+      "date": "2026-07-08",
+      "time": "16:13",
+      "macros": {
+        "p": 0.145,
+        "b": 1.32,
+        "f": 0.875
+      }
+    },
+    {
+      "name": "上海冷面",
+      "kcal": 320,
+      "meal": "午餐",
+      "qty": 200,
+      "unit": "g",
+      "macros": {
+        "p": 0.045,
+        "b": 0.25,
+        "f": 0.015
+      },
+      "confidence": "medium"
+    },
+    {
+      "name": "青椒炒豆腐干茭白",
+      "kcal": 120,
+      "meal": "午餐",
+      "qty": 150,
+      "unit": "g",
+      "macros": {
+        "p": 0.06,
+        "b": 0.03,
+        "f": 0.05
+      },
+      "confidence": "medium"
+    },
+    {
+      "name": "橘子",
+      "kcal": 30,
+      "meal": "加餐",
+      "qty": 1,
+      "unit": "个",
+      "macros": {
+        "p": 0.005,
+        "b": 0.061,
+        "f": 0.0006
+      }
+    },
+    {
+      "name": "盐水牛肉",
+      "kcal": 160,
+      "meal": "晚餐",
+      "qty": 100,
+      "unit": "g",
+      "confidence": "medium",
+      "macros": {
+        "p": 0.26,
+        "b": 0,
+        "f": 0.07
+      }
+    },
+    {
+      "name": "鸡蛋",
+      "kcal": 170,
+      "meal": "晚餐",
+      "qty": 2,
+      "unit": "个",
+      "macros": {
+        "p": 0.07,
+        "b": 0.006,
+        "f": 0.055
+      }
+    },
+    {
+      "name": "青椒炒豆腐干茭白",
+      "kcal": 80,
+      "meal": "晚餐",
+      "qty": 100,
+      "unit": "g",
+      "macros": {
+        "p": 0.06,
+        "b": 0.03,
+        "f": 0.05
+      }
+    }
+  ],
+  "weights": [
+    {
+      "date": "2026-07-01",
+      "value": 76.5
+    },
+    {
+      "date": "2026-07-02",
+      "value": 75.5
+    },
+    {
+      "date": "2026-07-03",
+      "value": 75
+    },
+    {
+      "date": "2026-07-04",
+      "value": 74.2
+    }
+  ],
+  "profile": {
+    "gender": "male",
+    "age": 31,
+    "height": 178,
+    "weight": 73,
+    "activity": "sedentary",
+    "goalType": "lose",
+    "bmr": 1683,
+    "tdee": 2020,
+    "targetKcal": 1520
+  }
+}
