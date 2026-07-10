@@ -1,0 +1,129 @@
+{
+  "meals": [
+    {
+      "name": "老北京鸡肉卷",
+      "kcal": 380,
+      "meal": "午餐",
+      "qty": 1,
+      "unit": "份(195g)",
+      "time": "13:02",
+      "confidence": "medium",
+      "macros": {
+        "p": 16,
+        "b": 40,
+        "f": 18
+      }
+    },
+    {
+      "name": "吮指原味鸡",
+      "kcal": 280,
+      "meal": "午餐",
+      "qty": 1,
+      "unit": "块(100g)",
+      "time": "13:02",
+      "confidence": "medium",
+      "macros": {
+        "p": 18,
+        "b": 12,
+        "f": 16
+      }
+    },
+    {
+      "name": "土豆泥",
+      "kcal": 135,
+      "meal": "午餐",
+      "qty": 1,
+      "unit": "盒",
+      "time": "13:02",
+      "confidence": "highest",
+      "macros": {
+        "p": 3,
+        "b": 20,
+        "f": 5
+      }
+    },
+    {
+      "name": "绿豆汤",
+      "kcal": 180,
+      "meal": "午餐",
+      "qty": 1,
+      "unit": "杯(500ml)",
+      "time": "13:02",
+      "confidence": "medium",
+      "macros": {
+        "p": 4,
+        "b": 35,
+        "f": 1
+      }
+    },
+    {
+      "name": "鸡蛋",
+      "kcal": 75,
+      "meal": "晚餐",
+      "qty": 1,
+      "unit": "个(50g)",
+      "time": "17:48",
+      "confidence": "highest",
+      "macros": {
+        "p": 6,
+        "b": 1,
+        "f": 5
+      }
+    },
+    {
+      "name": "猪小排",
+      "kcal": 270,
+      "meal": "晚餐",
+      "qty": 100,
+      "unit": "g",
+      "time": "17:48",
+      "confidence": "medium",
+      "macros": {
+        "p": 0.15,
+        "b": 0,
+        "f": 0.22
+      }
+    },
+    {
+      "name": "白木耳",
+      "kcal": 20,
+      "meal": "晚餐",
+      "qty": 50,
+      "unit": "g",
+      "time": "17:48",
+      "confidence": "medium",
+      "macros": {
+        "p": 0.02,
+        "b": 0.03,
+        "f": 0
+      }
+    },
+    {
+      "name": "非常巧巧克力冰淇淋",
+      "kcal": 204,
+      "meal": "加餐",
+      "qty": 1,
+      "unit": "支(67g)",
+      "time": "15:30",
+      "confidence": "highest",
+      "source": "product_label",
+      "macros": {
+        "p": 2,
+        "b": 25.1,
+        "f": 10.5
+      }
+    }
+  ],
+  "weights": [],
+  "profile": {
+    "gender": "male",
+    "age": 31,
+    "height": 178,
+    "weight": 73,
+    "activity": "sedentary",
+    "goalType": "lose",
+    "bmr": 1683,
+    "tdee": 2020,
+    "targetKcal": 1520
+  }
+}
