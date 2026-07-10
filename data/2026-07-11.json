@@ -1,0 +1,31 @@
+{
+  "meals": [
+    {
+      "name": "来伊份菠萝牛肉",
+      "kcal": 67,
+      "meal": "加餐",
+      "qty": 1,
+      "unit": "袋(20g)",
+      "time": "00:30",
+      "confidence": "highest",
+      "source": "product_label",
+      "macros": {
+        "p": 4.9,
+        "b": 9.8,
+        "f": 0.8
+      }
+    }
+  ],
+  "weights": [],
+  "profile": {
+    "gender": "male",
+    "age": 31,
+    "height": 178,
+    "weight": 73,
+    "activity": "sedentary",
+    "goalType": "lose",
+    "bmr": 1683,
+    "tdee": 2020,
+    "targetKcal": 1520
+  }
+}
