@@ -112,6 +112,21 @@
         "b": 25.1,
         "f": 10.5
       }
+    },
+    {
+      "name": "来伊份菠萝牛肉",
+      "kcal": 67,
+      "meal": "加餐",
+      "qty": 1,
+      "unit": "袋(20g)",
+      "time": "15:30",
+      "confidence": "highest",
+      "source": "product_label",
+      "macros": {
+        "p": 4.9,
+        "b": 9.8,
+        "f": 0.8
+      }
     }
   ],
   "weights": [],
