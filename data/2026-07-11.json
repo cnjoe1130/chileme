@@ -14,6 +14,21 @@
         "b": 9.8,
         "f": 0.8
       }
+    },
+    {
+      "name": "来伊份山椒肉",
+      "kcal": 109,
+      "meal": "加餐",
+      "qty": 1,
+      "unit": "袋(30g)",
+      "time": "00:30",
+      "confidence": "highest",
+      "source": "product_label",
+      "macros": {
+        "p": 9.4,
+        "b": 10.9,
+        "f": 3
+      }
     }
   ],
   "weights": [],
