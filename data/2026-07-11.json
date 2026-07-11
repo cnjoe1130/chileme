@@ -29,6 +29,48 @@
         "b": 10.9,
         "f": 3
       }
+    },
+    {
+      "name": "牛肉",
+      "kcal": 125,
+      "meal": "午餐",
+      "qty": 50,
+      "unit": "g",
+      "time": "12:00",
+      "confidence": "medium",
+      "macros": {
+        "p": 13,
+        "b": 0,
+        "f": 8.5
+      }
+    },
+    {
+      "name": "鸡蛋",
+      "kcal": 85,
+      "meal": "午餐",
+      "qty": 1,
+      "unit": "个(50g)",
+      "time": "12:00",
+      "confidence": "highest",
+      "macros": {
+        "p": 7,
+        "b": 0.6,
+        "f": 5.5
+      }
+    },
+    {
+      "name": "哈密瓜",
+      "kcal": 102,
+      "meal": "午餐",
+      "qty": 300,
+      "unit": "g",
+      "time": "12:00",
+      "confidence": "medium",
+      "macros": {
+        "p": 2.4,
+        "b": 24.6,
+        "f": 0.6
+      }
     }
   ],
   "weights": [],
